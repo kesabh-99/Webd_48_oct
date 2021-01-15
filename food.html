@@ -1,0 +1,138 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="navbar_style.css">
+    <title> </title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        .first {
+            height: 120%;
+            background-image: url(1.jpg);
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+        .aboutus {
+            min-height: 400px;
+            background-color: black;
+        }
+        .second {
+            height: 400px;
+            background-image: url(2.jpg);
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+        .menu {
+            min-height: 400px;
+            background-color: black;
+        }
+        .third {
+            height: 400px;
+            background-image: url(3.jpg);
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+
+        }
+        .contact {
+            min-height: 400px;
+            background-color: black;
+        }
+        .fourth {
+            height: 400px;
+            background-image: url(4.jpg);
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+        .footer {
+            height: 200px;
+            border: blue 3px solid;
+            background-color: black;
+        }
+
+        .footer .icons {
+            height: 70%;
+            border: green 4px solid;
+        }
+
+        .footer .text {
+            height: 30%;
+            border: red 4px solid;
+            display: flex;
+        }
+        .footer .text .items {
+            width: 33%;
+            height: 100%;
+            border: gray 4px solid;
+        }
+        .first .content{
+            text-align: center;
+            /* border: white 2px solid ;  */
+            position : absolute ; 
+            left : 40% ;
+            top : 40% ; 
+            font-size: 35px ;
+            font-family: cursive;
+            color : white ; 
+        }
+        .first .content button {
+            height: 60px ;
+            font-size : 25px; 
+            font-family: forte;
+            background-color: black;
+            color: white ;
+            padding : 8px ; 
+        }
+       #navbar{
+           opacity : 0.5;
+       }
+       #navbar:hover{
+           opacity: 1  ;
+       }
+       
+    </style>
+</head>
+
+<body>
+    <div class="first"> 
+        <div    id="navbar">
+            <ul>
+                <a href="">  <li>  Home  </li>      </a>
+                <a href="#aboutus">  <li>  About Us </li>   </a>
+                <a href="#contact">  <li>  Contact Us </li> </a>
+                <a href="#menu">  <li> Menu </li>    </a>
+            </ul>         
+        </div>    
+
+        <div class="content">
+            <h1>  Welcome  </h1>
+            <button>  Take me to the MENU  </button>
+        </div>
+    </div>
+    
+    <div class="aboutus"  id="aboutus"  > Black </div>
+    <div class="second"> </div>
+    <div class="menu"   id="menu"> Black </div>
+    <div class="third"> </div>
+    <div class="contact"    id="contact"> Black </div>
+
+    <div class="fourth"> </div>
+
+    <div class="footer">
+        <div class="icons"></div>
+        <div class="text">
+            <div class="items"> Faqs </div>
+            <div class="items"> &copy; </div>
+            <div class="items"> T&c </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
